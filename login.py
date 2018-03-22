@@ -17,8 +17,8 @@ def login(Explorer,flag):#flag表示是否是第一次调用
         Explorer.get(login_url)
         pass;
     Explorer.implicitly_wait(30)
-    Explorer.find_element_by_css_selector('input[name="identity"]').send_keys("13615884019")
-    Explorer.find_element_by_css_selector('input[name="password"]').send_keys("Ccissy_586489")
+    Explorer.find_element_by_css_selector('input[name="identity"]').send_keys("136xxxx4019")
+    Explorer.find_element_by_css_selector('input[name="password"]').send_keys("xxxxxxxxx")
     Explorer.find_element_by_id('login_btn').click()
     pass;
 
